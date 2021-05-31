@@ -1,6 +1,5 @@
 .ps-alternating-content .image-on-left.inner{
     flex-direction: row-reverse;
-    display: none;
 }
 .ps-alternating-content .image-on-left.inner .content{
     margin-left: 100rem;
