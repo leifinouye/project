@@ -4,6 +4,8 @@
 .ps-alternating-content .image-on-left.inner .content{
     margin-left: 100rem;
     margin-right: 0rem;
+    margin-top: 0;
+    display: block;
 }
 .ps-alternating-content .inner { 
     display: flex;
@@ -11,8 +13,7 @@
     padding: 0rem 20rem;
     margin: 0 auto;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
 .ps-alternating-content .inner .content { 
     margin-right: 100rem;
