@@ -1,0 +1,16 @@
+<section class="tabber">
+  <div class="inner">
+    <ul class="tabs">
+      {% for item in module.slide %}
+        <li iteration="{{loop.index}}" class="tab">{{ item.tab_text }}</li>
+      {% endfor %}
+    </ul>
+    <div class="slides">
+      {% for item in module.slide %}
+        <div iteration="{{loop.index}}" class="slide-{{ loop.index }} slide {% if loop.index == 1 %}active{% endif %}">
+           {{ item.slide_text }}
+       </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

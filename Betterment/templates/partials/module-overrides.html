@@ -1,0 +1,5 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: false
+-->
+{% if (module.module_overrides.enable_overrides) and (module.module_overrides.top_margin != 'none')  %} {{ module.module_overrides.top_margin }} {% endif %}{% if (module.module_overrides.enable_overrides) and (module.module_overrides.bottom_margin != 'none')  %} {{ module.module_overrides.bottom_margin }} {% endif %}

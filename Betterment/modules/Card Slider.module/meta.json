@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 46085581361,
+  "js_assets" : [ {
+    "url" : "https://f.hubspotusercontent30.net/hubfs/19944133/slick.min.js",
+    "autoload" : true,
+    "name" : "slick.min.js"
+  } ],
+  "label" : "Card Slider",
+  "is_available_for_new_content" : true
+}

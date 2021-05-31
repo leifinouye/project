@@ -1,0 +1,100 @@
+body {
+  line-height: 1.4;
+  word-break: break-word;
+  color: #333;
+
+}
+
+html[lang^="ja"] body,
+html[lang^="zh"] body,
+html[lang^="ko"] body {
+  line-break: strict;
+  word-break: break-all;
+}
+
+/* Paragraphs */
+
+p {
+  font-size: 18rem;
+  margin: 0 0 1.4rem;
+  line-height: 35rem;
+}
+
+/* Anchors */
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1.4rem;
+}
+h3{
+  font-size: 32rem;
+  line-height: 41rem;
+}
+/* Lists */
+
+ul,
+ol {
+  margin: 0 0 1.4rem;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin: 0;
+}
+
+ul.no-list {
+  list-style: none;
+}
+
+/* Code blocks */
+
+pre {
+  overflow: auto;
+}
+
+code {
+  vertical-align: bottom;
+}
+
+/* Blockquotes */
+
+blockquote {
+  border-left: 2px solid;
+  margin: 0 0 1.4rem;
+  padding-left: 15px;
+}
+
+/* Horizontal rules */
+
+hr {
+  background-color: #CCC;
+  border: none;
+  color: #CCC;
+  height: 1px;
+}
+
+/* Image alt text */
+
+img {
+  font-size: 14px;
+  word-break: normal;
+}

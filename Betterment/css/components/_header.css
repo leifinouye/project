@@ -1,0 +1,28 @@
+.page-scrolled header{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
+.page-scrolled header{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
+header{
+  padding: 10rem 0rem;
+  background: #FFF;
+  box-shadow: 0 0 50px 0 rgba(0,0,0,0.25);
+  position: relative;
+  transition: .3s ease;
+}
+header .header__container{
+  max-width: 1200rem;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 20rem;
+}
+header .header__container img{
+  transition: .3s ease;
+}

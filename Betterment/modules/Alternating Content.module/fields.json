@@ -1,0 +1,117 @@
+[ {
+  "id" : "06c90613-cc4f-8dff-fb60-dd5947e09325",
+  "name" : "image_on_left",
+  "label" : "Image on Left",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "f4ad3bb7-743e-164f-a143-b6162ca65720",
+  "name" : "eyebrow_text",
+  "label" : "Eyebrow Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sample Eyebrow Text"
+}, {
+  "id" : "885bfb0a-676e-2eab-d4e4-49c5e04c5c2b",
+  "name" : "header",
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sample Alternating Content Header"
+}, {
+  "id" : "7b2ec408-bd71-b2fe-e78e-ce1f6fbed03b",
+  "name" : "text",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}, {
+  "id" : "2fbff59c-ce8c-cb54-3959-48ed92e34312",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent30.net/hubfs/19944133/heroimage.png",
+    "alt" : "heroimage",
+    "loading" : "lazy",
+    "width" : 549,
+    "height" : 549,
+    "max_width" : 549,
+    "max_height" : 549
+  }
+}, {
+  "id" : "39490f79-a532-6191-6aa4-e31157aa1887",
+  "name" : "module_overrides",
+  "label" : "Module Overrides",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4be0a7f4-7dd1-63c9-a024-76f17a4c220f",
+    "name" : "top_margin",
+    "label" : "Top Margin",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "153fd1c8-a95c-561c-a15e-726da0777ed2",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "display" : "select",
+    "choices" : [ [ "top_none", "None" ], [ "top_small", "Small" ], [ "top_medium", "Medium" ], [ "top_large", "Large" ] ],
+    "type" : "choice"
+  }, {
+    "id" : "3d3ae729-56f8-52e9-c4fa-218045e361fa",
+    "name" : "bottom_margin",
+    "label" : "Bottom Margin",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : "153fd1c8-a95c-561c-a15e-726da0777ed2",
+      "controlling_value_regex" : "true",
+      "operator" : "EQUAL",
+      "access" : null,
+      "hidden_subfields" : null
+    },
+    "display" : "select",
+    "choices" : [ [ "bottom_none", "None" ], [ "bottom_small", "Small" ], [ "bottom_medium", "Medium" ], [ "bottom_large", "Large" ] ],
+    "type" : "choice"
+  }, {
+    "id" : "153fd1c8-a95c-561c-a15e-726da0777ed2",
+    "name" : "enable_overrides",
+    "label" : "Enable Overrides",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "enable_overrides" : false
+  }
+} ]

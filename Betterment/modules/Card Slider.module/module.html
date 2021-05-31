@@ -1,0 +1,30 @@
+{% set table = hubdb_table_rows( module.hubdbtable_field ) %}
+
+<section class="card-slider">
+  <div class="wrap">
+    <div class="content">
+      <h3 class="header">
+        {{ module.header }}
+      </h3>
+      <p class="subtext"> 
+        {{ module.subtext }}
+      </p>
+    </div>
+    <div class="inner" data-aos="fade-up">
+    {% for row in table %}
+      <div class="card" >
+        <div class="image" style="background-image: url( {{ row.image.url }})">         
+        </div>  
+        <div class="meta">
+          <div class="heading">
+            {{ row.name }}
+          </div>
+          <div class="summary">
+             {{ row.summary }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>        
+  </div>
+</section>

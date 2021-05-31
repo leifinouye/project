@@ -1,0 +1,49 @@
+[ {
+  "id" : "21897667-1c4b-c2b4-cb6f-32c79613cad7",
+  "name" : "slide",
+  "label" : "Slide",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "256145c9-7f21-a3df-a063-d5a7583fefea",
+    "name" : "tab_text",
+    "label" : "Tab Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Tab"
+  }, {
+    "id" : "fc0d68e8-837d-098b-fde9-200e669482be",
+    "name" : "slide_text",
+    "label" : "Slide Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Sample Slide Text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "tab_text" : "Tab",
+    "slide_text" : "Sample Slide Text"
+  }, {
+    "tab_text" : "Tab",
+    "slide_text" : "Sample Slide Text"
+  }, {
+    "tab_text" : "Tab",
+    "slide_text" : "Sample Slide Text"
+  } ]
+} ]

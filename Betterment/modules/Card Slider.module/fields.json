@@ -1,0 +1,32 @@
+[ {
+  "id" : "30a73b60-601c-b352-133c-65b90e1f9082",
+  "name" : "header",
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "This is a Sample Header"
+}, {
+  "id" : "52fb5847-c3c3-3f87-5a14-343156c3af59",
+  "name" : "subtext",
+  "label" : "Subtext",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "This is a Sample Header"
+}, {
+  "id" : "fe15f984-3efd-bbc6-38c0-ff23083601e9",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 4357437
+} ]

@@ -1,0 +1,20 @@
+<section class="ps-statistics">
+  <img class="top-swoop" src="https://f.hubspotusercontent30.net/hubfs/19944133/topswoopy.png">
+  <img class="bottom-swoop" src="https://f.hubspotusercontent30.net/hubfs/19944133/bottomswoopy.png">
+  <img class="highlight" src="https://f.hubspotusercontent30.net/hubfs/19944133/lefthighlight.svg">
+  <div class="inner">
+  {% for item in module.statistics %}
+    <div data-aos="fade-up" class="stat">
+      <div class="intro-text">
+        {{ item.intro_text }}
+      </div>
+      <div class="numscroller number" data-min="0" data-max="{{ item.number }}" data-delay="{{ item.animation_duration }}" data-increment="{{ item.counting_increment }}">
+        0      
+      </div>
+      <div class="summary">
+        {{ item.summary }}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>

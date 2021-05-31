@@ -1,0 +1,43 @@
+[ {
+  "id" : "40e2d7d1-f856-6f1a-2383-7974fb5687b3",
+  "name" : "header",
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Welcome to Leif's Personal Site"
+}, {
+  "id" : "020c5a0a-4149-f2f3-7ef7-df2140d01b9f",
+  "name" : "subheader",
+  "label" : "Subheader",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+}, {
+  "id" : "0a07ebbe-b5a9-d254-172b-86b7449f2cc7",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent30.net/hubfs/19944133/heroimage.png",
+    "alt" : "heroimage",
+    "loading" : "lazy",
+    "width" : 549,
+    "height" : 549,
+    "max_width" : 549,
+    "max_height" : 549
+  }
+} ]

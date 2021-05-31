@@ -1,0 +1,12 @@
+<section class="ps-alternating-content {% if module.module_overrides.enable_overrides %} {% include "/Betterment/templates/partials/module-overrides.html" %} {% endif %}">
+  <div class="inner {% if module.image_on_left %}image-on-left{% endif %}">
+    <div data-aos="fade-up" class="content">
+      <div class="eyebrow-text">{{ module.eyebrow_text }}</div>
+      <h3>{{ module.header }}</h3>
+      <p>{{ module.text }}</p>
+    </div>
+    <div data-aos="fade-down" class="image">
+      <img src="{{ module.image_field.src }}">
+    </div>
+  </div>
+</section>

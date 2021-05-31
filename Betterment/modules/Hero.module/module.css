@@ -1,0 +1,88 @@
+
+.page-scrolled .ps-hero{
+    margin-top: 82rem;
+}
+.ps-hero{
+    background: #1DB05B;
+    position: relative;
+    padding: 135rem 0rem;
+    overflow: hidden;
+}
+.ps-hero .accent{
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+.ps-hero .inner{
+    max-width: 1200rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 0 20rem;
+    position: relative;
+}
+@media (max-width: 1000px){
+    .ps-hero .inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ps-hero .inner .content{
+        text-align: center;
+        margin-bottom: 60rem;
+    }
+    .ps-hero .inner p{
+        margin: 0 auto;
+        margin-bottom: 50rem;
+    } 
+    .ps-hero .inner .image img{
+        max-width: 100%;
+    } 
+}
+.ps-hero .inner .content{
+}
+.ps-hero .inner h1{
+    color: #FFF;
+    margin-top: 0;
+}
+.ps-hero .inner h1 span{
+    color: #44ACC4;
+}
+.ps-hero .inner .image{
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.15);
+    border-radius: 100%;
+}
+.ps-hero .inner .image img{
+    max-width: 540rem;
+}
+.ps-hero .inner p{
+    font-size: 18rem;
+    line-height: 35rem;
+    margin-bottom: 50rem;
+    max-width: 550rem;
+    color: #FFF;
+}
+.ps-hero .inner a{
+    font-size: 18rem;
+    font-weight: bold;
+    background: #44ACC4;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 30rem;
+    padding: 10rem 40rem;
+}
+.ps-hero .inner a:hover{
+    background: #333;
+}
+.ps-hero .inner h1{
+    font-size: 51rem;
+    font-weight: bold;
+    margin-bottom: 20rem;
+}
+.ps-hero .bottom-swoop{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

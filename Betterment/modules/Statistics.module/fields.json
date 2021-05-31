@@ -1,0 +1,89 @@
+[ {
+  "id" : "1b321086-79b4-b640-5499-04071449e0d8",
+  "name" : "statistics",
+  "label" : "Statistics",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : 3,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "82780bb2-fe1a-cd10-8c20-1182fbee1fda",
+    "name" : "intro_text",
+    "label" : "Intro text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Intro text"
+  }, {
+    "id" : "f12fef04-0387-8363-b543-0c75726e815f",
+    "name" : "summary",
+    "label" : "Summary",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Ut enim ad minim veniam, quis nostrud exercitation"
+  }, {
+    "id" : "f1fecec7-0fd3-1c0f-3a13-9215a3c8ddb0",
+    "name" : "number",
+    "label" : "Number",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "type" : "number",
+    "default" : 100
+  }, {
+    "id" : "d29af2df-4c15-bb41-3c1a-be25e6d06be5",
+    "name" : "animation_duration",
+    "label" : "Animation Duration",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "type" : "number",
+    "default" : 5
+  }, {
+    "id" : "55d9bf39-4311-af74-74bb-ede7d1d1b3c7",
+    "name" : "counting_increment",
+    "label" : "Counting Increment",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "type" : "number",
+    "default" : 10
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "intro_text" : "Intro text",
+    "summary" : "Ut enim ad minim veniam, quis nostrud exercitation",
+    "number" : 100,
+    "animation_duration" : 5,
+    "counting_increment" : 10
+  }, {
+    "intro_text" : "Intro text",
+    "summary" : "Ut enim ad minim veniam, quis nostrud exercitation",
+    "number" : 100,
+    "animation_duration" : 5,
+    "counting_increment" : 10
+  }, {
+    "intro_text" : "Intro text",
+    "summary" : "Ut enim ad minim veniam, quis nostrud exercitation",
+    "number" : 100,
+    "animation_duration" : 5,
+    "counting_increment" : 10
+  } ]
+} ]
