@@ -1,0 +1,51 @@
+.hero2{
+    background-size: cover;
+    position: relative;
+}
+.hero2 .mobile-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: red;
+    display: none;
+}
+.hero2 .inner{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 150px 20px;
+    display: flex;
+     position: relative;
+}
+.hero2 .inner .content{
+    max-width: 800px;
+    margin-right: auto;
+
+}
+.hero2 .inner .content h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.hero2 .inner .content .subheader{
+    color: #333;
+    font-size: 20px;
+}
+@media (max-width: 1060px){
+    .hero2 .inner .content{
+        max-width: 100%;
+        text-align: center;
+    }
+    .hero2 .mobile-overlay{
+        display: block;
+    }
+    .hero2 .inner .content h1{
+        color: #FFF;
+    }
+    .hero2 .inner .content .subheader{
+        color: #FFF;
+    }
+    .hero2 .inner{
+        justify-content: center;
+    }
+}

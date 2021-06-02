@@ -1,0 +1,16 @@
+<section class="hero2 {% if module.background_image_orientation == 'centered' %} centered {% elif module.background_image_orientation == 'left_aligned' %} left-aligned {% else %}right-aligned{% endif %}" style="background-image:url({{ module.background_image.src }})">
+  <div class="mobile-overlay" style='background-image: url({{ module.background_image_mobile.src }})' >
+  </div>
+  <div class="inner">
+    <div class="content">
+      <h1>
+        {{ module.header_text }}
+      </h1>
+      {% if module.subheader_text  %}
+      <div class="subheader">      
+        {{ module.subheader_text }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

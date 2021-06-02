@@ -1,0 +1,73 @@
+[ {
+  "id" : "71a4f5bf-0c82-50c9-0bf8-8609d6bc6a03",
+  "name" : "background_image_orientation",
+  "label" : "Background Image Orientation (desktop)",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "centered", "Centered" ], [ "left_aligned", "Left Aligned" ], [ "right_aligned", "Right Aligned" ] ],
+  "type" : "choice",
+  "default" : "centered"
+}, {
+  "id" : "4a997d4d-e72f-2ae2-0380-d752958f7ddb",
+  "name" : "background_image",
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent30.net/hubfs/19944133/hero_bg.jpg",
+    "alt" : "hero_bg",
+    "loading" : "lazy",
+    "width" : 1440,
+    "height" : 597,
+    "max_width" : 1440,
+    "max_height" : 597
+  }
+}, {
+  "id" : "a7ab4129-4056-0fb3-f773-171417b4f59e",
+  "name" : "background_image_mobile",
+  "label" : "Background Image (Mobile)",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent30.net/hubfs/19944133/greg_coding-scaled.jpeg",
+    "alt" : "greg_coding-scaled",
+    "loading" : "lazy",
+    "width" : 2560,
+    "height" : 1707,
+    "max_width" : 2560,
+    "max_height" : 1707
+  }
+}, {
+  "id" : "32c69326-0b1b-0106-b54a-cab4fcfa9a90",
+  "name" : "header_text",
+  "label" : "Header Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sample Hero Headline"
+}, {
+  "id" : "04c4f615-c24f-e7f4-51da-f1c35d2c2f0e",
+  "name" : "subheader_text",
+  "label" : "Subheader Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sample Subheader Text"
+} ]
