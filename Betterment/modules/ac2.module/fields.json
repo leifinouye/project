@@ -1,0 +1,72 @@
+[ {
+  "id" : "af012349-17e1-3d39-791f-070a1bf772fc",
+  "name" : "position_image_on_right",
+  "label" : "Position Image on Right",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "fc11c57f-ff83-bf3f-d221-c87e528a819b",
+  "name" : "use_offset_image_styling",
+  "label" : "Use Offset Image Styling",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "27e3421a-fab7-edfb-550b-d5f481c280d5",
+  "name" : "eyebrow_text",
+  "label" : "Eyebrow Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sample Eyebrow Text"
+}, {
+  "id" : "b8e9299d-549a-9b33-1895-c22912789dc5",
+  "name" : "header",
+  "label" : "Header",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "This is a Sample Header"
+}, {
+  "id" : "23419ff6-9d07-013a-8e98-8db6bff77b01",
+  "name" : "subheader",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolor ."
+}, {
+  "id" : "722c602d-d877-2ee7-d004-1ce37b7c505b",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent30.net/hubfs/19944133/gears_phone.png",
+    "alt" : "gears_phone",
+    "loading" : "lazy",
+    "width" : 729,
+    "height" : 582,
+    "max_width" : 729,
+    "max_height" : 582
+  }
+} ]

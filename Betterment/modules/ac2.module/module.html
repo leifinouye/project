@@ -1,0 +1,20 @@
+<section class="ac2">
+  <div class="inner {% if module.use_offset_image_styling %}offset-style{% endif %} {% if module.position_image_on_right %}reverse-style{% endif %}">
+    <div class='left-side'>
+      {% if module.eyebrow_text %}
+      <div class="eyebrow-text">  
+        {{ module.eyebrow_text }}
+      </div>
+      {% endif %}
+      <div class="header">
+        {{ module.header }}
+      </div>
+      <div class="text">
+        {{ module.subheader }}
+      </div>
+    </div>
+    <div class="right-side">
+      <img src="{{ module.image_field.src }}">
+    </div>
+  </div>
+</section>

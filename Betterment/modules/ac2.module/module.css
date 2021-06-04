@@ -1,0 +1,70 @@
+.ac2 { 
+}
+.ac2 .inner.offset-style .left-side {
+    margin-top: -100px;
+    position: relative;
+}
+.ac2 .inner.offset-style .right-side {
+}
+.ac2 .inner.reverse-style{
+    flex-direction: row-reverse;
+}
+.ac2 .inner.reverse-style .left-side{
+    margin-left: 100px;
+    margin-right: 0;
+}
+.ac2 .inner { 
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.ac2 .inner .left-side { 
+    flex: 1;
+    margin-right: 100px;
+}
+
+.ac2 .inner .right-side .eyebrow-text { 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #1d6ae5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ac2 .inner .right-side .header { 
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.ac2 .inner .right-side .text { 
+    font-size: 18px;
+}
+
+.ac2 .inner .right-side { 
+    flex: 1;
+}
+
+.ac2 .inner .left-side img { 
+    max-width: 650px;
+}
+@media (max-width: 1024px){
+    .ac2 .inner { 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }      
+    .ac2 .inner .left-side{ 
+        margin:0;
+    }
+    .ac2 .inner .left-side img{ 
+        max-width: 100%;
+    }
+    .ac2 .inner .right-side { 
+        text-align: center;
+    }
+}
